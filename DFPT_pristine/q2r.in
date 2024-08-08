@@ -1,0 +1,3 @@
+ &input
+  zasr='simple',  fildyn='TiSe2.dyn', flfrc='TiSe2_222.fc', la2F=.true.
+ /

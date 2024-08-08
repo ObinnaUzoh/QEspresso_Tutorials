@@ -1,0 +1,6 @@
+&DOS
+    prefix  = 'TiSe2'
+    DeltaE = 0.001,
+    fildos = 'TiSe2.dos.dat'
+    outdir = './tmp/'
+/

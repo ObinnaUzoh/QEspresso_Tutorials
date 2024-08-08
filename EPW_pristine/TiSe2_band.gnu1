@@ -1,0 +1,15 @@
+set terminal png 
+set output 'TiSe2_band_wannier.png'
+set title 'Band structure of TiSe_{2}'
+set style data dots
+set nokey
+set xrange [0: 6.11790]
+set yrange [  5.01373 : 12.65633]
+set arrow from  1.02401,   5.01373 to  1.02401,  12.65633 nohead
+set arrow from  1.61559,   5.01373 to  1.61559,  12.65633 nohead
+set arrow from  2.79746,   5.01373 to  2.79746,  12.65633 nohead
+set arrow from  3.32044,   5.01373 to  3.32044,  12.65633 nohead
+set arrow from  4.34445,   5.01373 to  4.34445,  12.65633 nohead
+set arrow from  4.93603,   5.01373 to  4.93603,  12.65633 nohead
+set xtics ("G"  0.00000,"M"  1.02401,"K"  1.61559,"G"  2.79746,"A"  3.32044,"L"  4.34445,"H"  4.93603,"A"  6.11790)
+ plot "TiSe2_band.dat"

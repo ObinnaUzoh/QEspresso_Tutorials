@@ -1,0 +1,6 @@
+&projwfc
+    prefix='TiSe2'
+    outdir='./tmp/'
+    filproj = 'TiSe2.pdos.dat'
+    DeltaE = 0.001
+/

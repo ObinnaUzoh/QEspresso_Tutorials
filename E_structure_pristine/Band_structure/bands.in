@@ -1,0 +1,5 @@
+&bands
+    prefix  = 'TiSe2'
+    filband = 'bands.dat'
+    outdir = './tmp/'
+ /

@@ -1,0 +1,16 @@
+#Electron-phonon coefficients for TiSe2
+ &inputph
+  tr2_ph   = 1.0d-14,
+  prefix   = 'TiSe2',
+  fildvscf = 'dvscf',
+  amass(1) = 47.867
+  amass(2) = 78.971
+  outdir   ='./tmp',
+  fildyn   ='TiSe2.dyn',
+  electron_phonon='interpolated',
+  el_ph_sigma    = 0.005, 
+  el_ph_nsigma   = 10,
+  trans          = .true.,
+  ldisp          = .true.,
+  nq1=2, nq2=2, nq3=2
+ /

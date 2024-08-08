@@ -1,0 +1,19 @@
+&input
+   title='He',
+   zed=2.,
+   rel=1,
+   config='1s2',
+   iswitch=3,
+   dft='SLA-PW'
+ /
+&inputp
+   pseudotype=2,
+   file_pseudopw='He.1.pw-n-tm-nc.UPF',
+   author='ADC',
+   lloc=-1,
+   rcloc=0.6
+   new_core_ps=.true.,
+   tm=.true.
+ /
+1
+1S  1  0  2.00  0.00  0.90  1.10  0.0

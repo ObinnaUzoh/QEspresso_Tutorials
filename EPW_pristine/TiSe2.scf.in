@@ -1,0 +1,39 @@
+&control   
+    calculation = 'scf',
+    restart_mode = 'from_scratch'
+    prefix = 'TiSe2',
+    outdir = './'
+    pseudo_dir = './pseudo/'
+    forc_conv_thr = 1.0d-8
+    etot_conv_thr = 1.0d-8
+ /
+ &system
+    ibrav =  0,
+    nat =  3,
+    ntyp = 2,
+    ecutwfc = 70
+    ecutrho = 800
+    degauss = 0.01
+    smearing = 'marzari-vanderbilt'
+    occupations =  'smearing'                                                                
+ /
+ &electrons
+    mixing_beta = 0.7
+    conv_thr = 1.0d-10
+ /
+ATOMIC_SPECIES
+Ti 47.867  Ti.upf
+Se 78.971  Se.upf
+
+ATOMIC_POSITIONS (crystal)
+Ti      -0.000000000  -0.000000000  -0.000000000
+Se       0.333899797   0.666100202   0.250208591
+Se       0.666100202   0.333899797  -0.250208591
+
+K_POINTS (automatic)
+24 24 24 0 0 0
+
+CELL_PARAMETERS (angstrom)
+   3.419864000  -0.913994500   0.027244000
+  -0.913994500   3.419864000  -0.027244000
+  -0.046231554   0.046231554   6.006779129
