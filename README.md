@@ -1,7 +1,7 @@
 ﻿# QEspresso_Tutorials
  
 
- Quantum Expresso tutorials on the superconducting property of TiSe$_2$. The tutorial features:
+ Quantum Expresso tutorials on the electronic, phonon, and superconducting propertes of TiSe<sub>2</sub>. The tutorial features:
 
  1. Pseudoptential file generation using `ld.x`.
  2. Virtual crystal approximation to simulate crystal structure disorder or doping.
